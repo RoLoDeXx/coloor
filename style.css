@@ -1,0 +1,43 @@
+body {
+  height: 100vh;
+}
+
+.color-breathe {
+  color: #313131;
+  animation: colorpulse 10s infinite alternate;
+}
+@keyframes colorpulse {
+  0% {
+    color: goldenrod;
+  }
+  10% {
+    color: red;
+  }
+  20% {
+    color: green;
+  }
+  30% {
+    color: blue;
+  }
+  40% {
+    color: rebeccapurple;
+  }
+  50% {
+    color: royalblue;
+  }
+  60% {
+    color: rgb(0, 202, 202);
+  }
+  70% {
+    color: rgb(95, 190, 0);
+  }
+  80% {
+    color: coral;
+  }
+  90% {
+    color: orange;
+  }
+  100% {
+    color: gold;
+  }
+}
